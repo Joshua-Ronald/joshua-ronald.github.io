@@ -12,7 +12,7 @@ let i_descuento2 = 0.00.toFixed(2)
 let i_descuentoTotal = 0.00.toFixed(2)
 let i_precio = 22000.00.toFixed(2)
 let i_precioTotal = 22000.00.toFixed(2)
-let i_saldoFinanciar = 4225.00.toFixed(2)
+let i_saldoFinanciar = 20900.00.toFixed(2)
 
 let i_descuentoPorcentaje = 0;
 let i_descuento2Value = 0;
@@ -103,38 +103,38 @@ function i_brand_function() {
 }
 
 function i_precio_function() {
-    if (servicioLugar == "Jardineras0"){
-        precio = 22000.00.toFixed(2)
-    } else if (servicioLugar == "Jardineras1") {
-        precio = 16500.00.toFixed(2)
-    } else if (servicioLugar == "Jardineras2") {
-        precio = 14000.00.toFixed(2)
-    } else if (servicioLugar == "Jardineras3") {
-        precio = 22000.00.toFixed(2)
-    } else if (servicioLugar == "Jardineras4") {
-        precio = 17000.00.toFixed(2)
-    } else if (servicioLugar == "Jardineras5") {
-        precio = 13000.00.toFixed(2)
-    } else if (servicioLugar == "Jardineras6") {
-        precio = 10000.00.toFixed(2)
-    } else if (servicioLugar == "Jardineras7") {
-        precio = 17000.00.toFixed(2)
-    } else if (servicioLugar == "Lotes0") {
-        precio = 12000.00.toFixed(2)
-    } else if (servicioLugar == "Lotes1") {
-        precio = 6400.00.toFixed(2)
-    } else if (servicioLugar == "Lotes2") {
-        precio = 9500.00.toFixed(2)
-    } else if (servicioLugar == "Lotes3") {
-        precio = 5150.00.toFixed(2)
-    } else if (servicioLugar == "Lotes4") {
-        precio = 8500.00.toFixed(2)
-    } else if (servicioLugar == "Lotes5") {
-        precio = 4500.00.toFixed(2)
-    } else if (servicioLugar == "Lotes6") {
-        precio = 3800.00.toFixed(2)
-    } else if (servicioLugar == "Lotes7") {
-        precio = 3100.00.toFixed(2)
+    if (i_servicioLugar == "Jardineras0"){
+        i_precio = 22000.00.toFixed(2)
+    } else if (i_servicioLugar == "Jardineras1") {
+        i_precio = 16500.00.toFixed(2)
+    } else if (i_servicioLugar == "Jardineras2") {
+        i_precio = 14000.00.toFixed(2)
+    } else if (i_servicioLugar == "Jardineras3") {
+        i_precio = 22000.00.toFixed(2)
+    } else if (i_servicioLugar == "Jardineras4") {
+        i_precio = 17000.00.toFixed(2)
+    } else if (i_servicioLugar == "Jardineras5") {
+        i_precio = 13000.00.toFixed(2)
+    } else if (i_servicioLugar == "Jardineras6") {
+        i_precio = 10000.00.toFixed(2)
+    } else if (i_servicioLugar == "Jardineras7") {
+        i_precio = 17000.00.toFixed(2)
+    } else if (i_servicioLugar == "Lotes0") {
+        i_precio = 12000.00.toFixed(2)
+    } else if (i_servicioLugar == "Lotes1") {
+        i_precio = 6400.00.toFixed(2)
+    } else if (i_servicioLugar == "Lotes2") {
+        i_precio = 9500.00.toFixed(2)
+    } else if (i_servicioLugar == "Lotes3") {
+        i_precio = 5150.00.toFixed(2)
+    } else if (i_servicioLugar == "Lotes4") {
+        i_precio = 8500.00.toFixed(2)
+    } else if (i_servicioLugar == "Lotes5") {
+        i_precio = 4500.00.toFixed(2)
+    } else if (i_servicioLugar == "Lotes6") {
+        i_precio = 3800.00.toFixed(2)
+    } else if (i_servicioLugar == "Lotes7") {
+        i_precio = 3100.00.toFixed(2)
     }
 
     if (integralChecked.checked) {
