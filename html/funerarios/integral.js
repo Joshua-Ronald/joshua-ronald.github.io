@@ -89,7 +89,7 @@ function i_place(){
     i_lugarValue = document.i_services.i_places[document.i_services.i_places.selectedIndex].value;
     i_servicioLugar = i_servicio + i_lugarValue
 
-    i_prueba()
+    prueba()
 }
 
 function i_brand_function() {
